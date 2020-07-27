@@ -1,0 +1,9 @@
+#!/bin/bash
+#We are learning about variables in this excercise
+score=89
+echo $score
+echo score
+name='Chetan Talwar'
+echo "My name is "${name}
+echo "Value of Path env is $PATH"
+echo "Value of LogName env is $LOGNAME"
