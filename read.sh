@@ -1,4 +1,9 @@
 #!/bin/bash
-echo "Enter your name"
-read NAME
-echo "$NAME, Welcome to Scripting World"
+input="text.txt"
+count=1
+while IFS= read -r line
+do
+  echo "Line Number $count -> "$line
+  count=$(($count+1))
+done < "$input"
+
